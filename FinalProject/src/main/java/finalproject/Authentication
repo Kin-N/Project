@@ -1,0 +1,48 @@
+package FinalProject;
+import java.util.HashMap;
+import java.util.Map;
+
+class Authentication {
+    private Map<String, String> credentials; // Simulating user credentials stored in memory
+
+    public Authentication() {
+        credentials = new HashMap<>();
+        // In a real application, you would fetch user credentials from a secure database
+        credentials.put("user1", "password1");
+        credentials.put("user2", "password2");
+        // Add more credentials as needed
+    }
+
+    public void login(String username, String password) {
+        if (isValidCredentials(username, password)) {
+            System.out.println("Login successful");
+            // Perform additional actions upon successful login
+        } else {
+            System.out.println("Invalid username or password");
+            // Handle unsuccessful login attempt
+        }
+    }
+
+    public void logout() {
+        System.out.println("Logged out");
+        // Perform logout actions such as clearing session data or tokens
+    }
+
+    public void authorize(String role) {
+        // Check authorization logic based on user role
+        // For example:
+        if ("admin".equals(role)) {
+            System.out.println("User is authorized as admin");
+        } else if ("employee".equals(role)) {
+            System.out.println("User is authorized as employee");
+        } else {
+            System.out.println("User is not authorized");
+        }
+    }
+
+    private boolean isValidCredentials(String username, String password) {
+        // In a real scenario, this method would check against a secure database
+        return credentials.containsKey(username) && credentials.get(username).equals(password);
+    }
+}
+
