@@ -1,7 +1,0 @@
-class Electrician extends ConstructionWorker {
-    private int experienceYears;
-
-    public int getExperienceYears() {
-        return experienceYears;
-    }
-}
