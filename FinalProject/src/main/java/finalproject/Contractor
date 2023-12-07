@@ -1,0 +1,7 @@
+class Contractor extends ConstructionWorker {
+    private String companyName;
+
+    public String getCompanyName() {
+        return companyName;
+    }
+}
