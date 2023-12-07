@@ -1,0 +1,23 @@
+package FinalProject;
+class Admin {
+    private int adminId;
+    private String adminName;
+    private String adminEmail;
+    private String adminPhoneNumber;
+
+    public int getAdminId() {
+        return adminId;
+    }
+
+    public String getAdminName() {
+        return adminName;
+    }
+
+    public String getAdminEmail() {
+        return adminEmail;
+    }
+
+    public String getAdminPhoneNumber() {
+        return adminPhoneNumber;
+    }
+}
