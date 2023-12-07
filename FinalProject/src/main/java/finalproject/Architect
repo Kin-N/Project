@@ -1,0 +1,7 @@
+class Architect extends ConstructionWorker {
+    private String degree;
+
+    public String getDegree() {
+        return degree;
+    }
+}
