@@ -1,0 +1,7 @@
+class Carpenter extends ConstructionWorker {
+    private String expertise;
+
+    public String getExpertise() {
+        return expertise;
+    }
+}
