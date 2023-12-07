@@ -1,7 +1,0 @@
-class Plumber extends ConstructionWorker {
-    private String specialization;
-
-    public String getSpecialization() {
-        return specialization;
-    }
-}
