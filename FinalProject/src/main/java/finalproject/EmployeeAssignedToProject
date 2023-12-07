@@ -1,0 +1,10 @@
+package FinalProject;
+class EmployeeAssignedToProject {
+    private Employee employee;
+    private Project project;
+
+    public EmployeeAssignedToProject(Employee employee, Project project) {
+        this.employee = employee;
+        this.project = project;
+    }
+}
