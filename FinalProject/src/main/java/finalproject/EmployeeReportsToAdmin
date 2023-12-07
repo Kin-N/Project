@@ -1,0 +1,10 @@
+package FinalProject;
+class EmployeeReportsToAdmin {
+    private Employee employee;
+    private Admin admin;
+
+    public EmployeeReportsToAdmin(Employee employee, Admin admin) {
+        this.employee = employee;
+        this.admin = admin;
+    }
+}
