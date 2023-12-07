@@ -1,0 +1,10 @@
+package FinalProject;
+class ProjectRequiresMaterials {
+    private Project project;
+    private List<Material> materials;
+
+    public ProjectRequiresMaterials(Project project, List<Material> materials) {
+        this.project = project;
+        this.materials = materials;
+    }
+}
