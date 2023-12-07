@@ -1,0 +1,7 @@
+class Builder extends ConstructionWorker {
+    private String skills;
+
+    public String getSkills() {
+        return skills;
+    }
+}
